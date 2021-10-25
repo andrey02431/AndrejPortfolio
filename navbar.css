@@ -223,16 +223,21 @@ ul li {
 .social-icons{
   padding: 20px;
   font-size: 30px;
-  margin-left: 15%;
+  
 }
 .social{
-  margin: auto;
-  background-color: rgba(27, 27, 27, 0.336);
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(41, 39, 39, 0.336);
   border-radius: 70%;
   
 }
 .iic{
   color: #8f0783;
+  
+}
+.iic:hover{
+  color:white;
 }
 
 
